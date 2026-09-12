@@ -61,18 +61,20 @@ I like solving real-world problems through technology and building things that p
 
 ### GitHub Stats
 
- <p align="center">
+<p align="center">
   <a href="https://github.com/manthannayaks">
     <img
-      src="https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true"
+      src="https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400"
       width="48%"
+      alt="Manthan's GitHub stats"
     />
   </a>
 
   <a href="https://github.com/manthannayaks">
     <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=manthannayaks&layout=compact&theme=dark&hide_border=true&langs_count=8"
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=manthannayaks&layout=compact&theme=dark&hide_border=true&langs_count=8&cache_seconds=86400"
       width="48%"
+      alt="Top languages"
     />
   </a>
 </p>
