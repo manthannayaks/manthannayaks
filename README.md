@@ -61,9 +61,9 @@ I like solving real-world problems through technology and building things that p
 
 ### GitHub Stats
 
-[![Manthan's GitHub stats](https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/manthannayaks)
+![Manthan's GitHub stats](https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
 
-[![Top languages](https://github-readme-stats.vercel.app/api/top-langs?username=manthannayaks&layout=compact&theme=dark&hide_border=true&langs_count=8)](https://github.com/manthannayaks)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs?username=manthannayaks&layout=compact&theme=dark&hide_border=true&langs_count=8)
 
 ---
 
