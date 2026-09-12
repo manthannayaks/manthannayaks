@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Manthan Nayak 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8A63D2&center=true&vCenter=true&width=550&lines=Building+Products+from+Ideas;Exploring+AI+%2B+Web+Development;Open+Source+%26+Learning" alt="typing svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8A63D2&center=true&vCenter=true&width=550&lines=Building+Products+from+Ideas;Exploring+AI+%2B+Web+Development;Open+Source+%26+Learning" alt="Typing SVG" />
 </p>
 
 ---
@@ -68,5 +68,5 @@ I like solving real-world problems through technology and building things that p
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=manthannayaks&color=8A63D2&style=flat" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=manthannayaks&color=8A63D2&style=flat" alt="Profile Views"/>
 </p>
