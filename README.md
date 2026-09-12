@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Manthan Nayak 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8A63D2&center=true&vCenter=true&width=550&lines=Exploring+ML+%2B+Computer+Vision;Building+automation+from+messy+data;Learning+by+shipping+real+projects" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8A63D2&center=true&vCenter=true&width=550&lines=Building+Products+from+Ideas;Exploring+AI+%2B+Web+Development;Turning+Ideas+into+Real+Projects;Learning+by+Building+%26+Shipping" alt="Typing SVG" />
 </p>
 
 ---
