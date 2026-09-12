@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE](https://www.linkedin.com/in/manthan-nayak-s/">
+  <a href="https://www.linkedin.com/in/manthan-nayak-s/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:bomanthan51@gmail.com">
