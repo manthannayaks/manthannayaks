@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Manthan Nayak 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8A63D2&center=true&vCenter=true&width=550&lines=Building+Products+from+Ideas;Exploring+AI+%2B+Web+Development;Turning+Ideas+into+Real+Projects;Learning+by+Building+%26+Shipping" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8A63D2&center=true&vCenter=true&width=550&lines=Building+Products+from+Ideas;Exploring+AI+%2B+Web+Development;Open+Source+%26+Learning" alt="typing svg" />
 </p>
 
 ---
@@ -10,7 +10,7 @@
 
 I'm Manthan Nayak, an Artificial Intelligence undergraduate at IIT Jodhpur with a strong interest in Web Development and AI Systems.
 
-I enjoy building my own products from scratch — turning ideas into practical, usable applications. I'm exploring machine learning, computer vision, automation, and modern web technologies, while continuously learning and experimenting with new tools.
+I enjoy building my own products from scratch — turning ideas into practical, usable applications. I'm exploring machine learning, computer vision, automation, and modern web technologies, while continuously learning and contributing to projects that solve real problems.
 
 I like solving real-world problems through technology and building things that people can actually use.
 
@@ -61,23 +61,9 @@ I like solving real-world problems through technology and building things that p
 
 ### GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/manthannayaks">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400"
-      width="48%"
-      alt="Manthan's GitHub stats"
-    />
-  </a>
+[![Manthan's GitHub stats](https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/manthannayaks)
 
-  <a href="https://github.com/manthannayaks">
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=manthannayaks&layout=compact&theme=dark&hide_border=true&langs_count=8&cache_seconds=86400"
-      width="48%"
-      alt="Top languages"
-    />
-  </a>
-</p>
+[![Top languages](https://github-readme-stats.vercel.app/api/top-langs?username=manthannayaks&layout=compact&theme=dark&hide_border=true&langs_count=8)](https://github.com/manthannayaks)
 
 ---
 
