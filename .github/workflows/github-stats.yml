@@ -5,26 +5,22 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  generate-stats:
+  stats:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    permissions:
+      contents: write
 
-      - name: Generate GitHub statistics
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate GitHub Statistics
         uses: cicirello/user-statistician@v1
         with:
-          image-path: profile/github-stats.svg
-
-      - name: Commit updated statistics
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/github-stats.svg
-          git commit -m "Update GitHub statistics" || exit 0
-          git push
+          image-file: profile/github-stats.svg
+          colors: dark
+          custom-title: "Manthan Nayak's GitHub Statistics"
+          max-languages: 8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
