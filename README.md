@@ -61,11 +61,10 @@ I like solving real-world problems through technology and building things that p
 
 ### GitHub Stats
 
-<p align="center">
-  <img src="./profile/github-stats.svg" width="100%" alt="GitHub Statistics" />
-</p>
+<!-- <p align="center">
+  <img src="./profile/github-stats.svg" width="50%" alt="GitHub Statistics" />
+</p> -->
 
----
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=manthannayaks&color=8A63D2&style=flat" alt="Profile Views"/>
