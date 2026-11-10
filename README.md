@@ -1,71 +1,65 @@
-<h1 align="center">Hi there, I'm Manthan Nayak 👋</h1>
+<div align="center">
+
+<img src="./assets/header.svg" width="100%" alt="Manthan Nayak terminal banner"/>
+
+</div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8A63D2&center=true&vCenter=true&width=550&lines=Building+Products+from+Ideas;Exploring+AI+%2B+Web+Development;Open+Source+%26+Learning" alt="Typing SVG" />
+  <img src="./assets/portrait.svg" width="49%" alt="ASCII portrait of Manthan Nayak"/>
 </p>
-
----
-
-### About Me
-
-I'm Manthan Nayak, an Artificial Intelligence undergraduate at IIT Jodhpur with a strong interest in Web Development and AI Systems.
-
-I enjoy building my own products from scratch — turning ideas into practical, usable applications. I'm exploring machine learning, computer vision, automation, and modern web technologies, while continuously learning and contributing to projects that solve real problems.
-
-I like solving real-world problems through technology and building things that people can actually use.
-
----
-
-### Tech Stack
-
-**Languages**
-
-<p>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
-
-**Web / Frontend**
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/>
-</p>
-
-**Backend**
-
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-</p>
-
-**Databases**
-
-<p>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
-
-**Tools**
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
-
----
-
-### GitHub Stats
-
-<!-- <p align="center">
-  <img src="./profile/github-stats.svg" width="50%" alt="GitHub Statistics" />
-</p> -->
-
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=manthannayaks&color=8A63D2&style=flat" alt="Profile Views"/>
+  <img src="./assets/terminal.svg" width="100%" alt="Terminal-style developer introduction"/>
+</p>
+
+## `$ ./current_focus.sh`
+
+- Exploring **AI / Machine Learning** and practical applications.
+- Building full-stack products and improving software engineering fundamentals.
+- Practising **Data Structures & Algorithms** and problem solving.
+- Learning by shipping projects, experimenting, and iterating.
+
+## `$ ls ./projects`
+
+| Project | What it does |
+|---|---|
+| **Koda** | A coding platform with a structured DSA roadmap, learning paths, ratings, and leaderboard features. |
+| **VisionTrack AI** | A computer-vision project exploring person retrieval and visual-attribute matching in CCTV footage. |
+| **HAUNTED FRAME** | A story-driven 3D psychological horror / life-simulation game concept built with Godot. |
+| **ParentCare360** | A remote elder-care management system concept focused on connected care and monitoring. |
+
+> Project repository links can be added when the corresponding repositories are public.
+
+## `$ cat tech-stack.txt`
+
+<p align="center">
+  <img src="./assets/tech.svg" width="100%" alt="Technology stack"/>
+</p>
+
+**Languages:** C++, Python, JavaScript, TypeScript  
+**Frontend:** HTML, CSS, React, Next.js, Tailwind CSS  
+**Backend & Data:** Node.js, NestJS, PostgreSQL, Prisma  
+**AI / ML:** PyTorch, scikit-learn, NumPy, Pandas, Jupyter  
+**Tools:** Git, GitHub, Linux, VS Code
+
+## `$ ./contributions.sh`
+
+<p align="center">
+  <img src="./assets/profile-stats.svg" width="100%" alt="Automatically updated GitHub contribution dashboard"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&rank_icon=github" height="165" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manthannayaks&layout=compact&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9" height="165" alt="Top languages"/>
+</p>
+
+## `$ connect --with me`
+
+<p align="center">
+  <a href="https://github.com/manthannayaks"><img src="https://img.shields.io/badge/GitHub-manthannayaks-0d1117?style=for-the-badge&logo=github&logoColor=39d353" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=39d353" alt="LinkedIn"/></a>
+</p>
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Build learn repeat"/>
 </p>
