@@ -18,7 +18,7 @@ PAPER = "#f6f8fa"  # light panel behind the portrait (keeps dark hair dark)
 T = 12.0  # seconds per animation loop
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PORTRAIT = os.path.join(ROOT, "assets", "portrait-src.png")
+PORTRAIT = os.path.join(ROOT, "assets", "portrait.png")
 
 
 # ------------------------------------------------------------------ data
@@ -69,7 +69,7 @@ def _prompt(y, cmd, cursor=False):
         f'<tspan fill="#7ee787">$</tspan><tspan fill="{FG}"> {escape(cmd)}</tspan></text>'
     )
     if cursor:
-        x = 20 + 7.8 * (len("jatin@github ~ $ ") + len(cmd)) + 2
+        x = 20 + 7.8 * (len("manthan@github ~ $ ") + len(cmd)) + 2
         s += (
             f'<rect x="{x:.1f}" y="{y - 11}" width="8" height="14" fill="{FG}">'
             f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5001;1" dur="1.1s" repeatCount="indefinite"/></rect>'
