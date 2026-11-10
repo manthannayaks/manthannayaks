@@ -37,8 +37,7 @@
 ## `$ ./github-stats.sh`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&rank_icon=github" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manthannayaks&layout=compact&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9" height="165" alt="Top languages"/>
+  <img src="./assets/github-stats.svg" width="100%" alt="Manthan Nayak's GitHub statistics and language distribution"/>
 </p>
 
 ## `$ connect --with me`
