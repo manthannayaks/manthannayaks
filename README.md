@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/portrait.svg" width="49%" alt="ASCII portrait of Manthan Nayak"/>
+  <img src="./assets/portrait.png" width="49%" alt="ASCII portrait of Manthan Nayak"/>
 </p>
 
 <p align="center">
