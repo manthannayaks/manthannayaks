@@ -5,11 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/portrait.png" width="49%" alt="ASCII portrait of Manthan Nayak"/>
-</p>
-
-<p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Terminal-style developer introduction"/>
+  <img src="./assets/profile.svg" width="100%" alt="Manthan Nayak animated terminal profile and GitHub stats dashboard"/>
 </p>
 
 ## `$ ./current_focus.sh`
@@ -30,12 +26,7 @@
 | **Image Segmentation** | A computer vision project focused on pixel-level image classification and segmentation for accurate object and region identification. |
 | **SQORA** | A database-focused platform for writing, executing, and managing SQL queries through an intuitive interface. |
 
-
 ## `$ cat tech-stack.txt`
-
-<p align="center">
-  <img src="./assets/tech.svg" width="100%" alt="Technology stack"/>
-</p>
 
 **Languages:** C++, Python, JavaScript, TypeScript  
 **Frontend:** HTML, CSS, React, Next.js, Tailwind CSS  
@@ -43,11 +34,7 @@
 **AI / ML:** PyTorch, scikit-learn, NumPy, Pandas, Jupyter  
 **Tools:** Git, GitHub, Linux, VS Code
 
-## `$ ./contributions.sh`
-
-<p align="center">
-  <img src="./assets/profile-stats.svg" width="100%" alt="Automatically updated GitHub contribution dashboard"/>
-</p>
+## `$ ./github-stats.sh`
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=manthannayaks&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&rank_icon=github" height="165" alt="GitHub stats"/>

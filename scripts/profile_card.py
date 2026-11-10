@@ -18,7 +18,7 @@ PAPER = "#f6f8fa"  # light panel behind the portrait (keeps dark hair dark)
 T = 12.0  # seconds per animation loop
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PORTRAIT = os.path.join(ROOT, "assets", "portrait.png")
+PORTRAIT = os.path.join(ROOT, "assets", "portrait-src.png")
 
 
 # ------------------------------------------------------------------ data
@@ -65,7 +65,7 @@ def monthly(days, n=12, year=None):
 def _prompt(y, cmd, cursor=False):
     s = (
         f'<text x="20" y="{y}" font-family="{MONO}" font-size="13" font-weight="600" xml:space="preserve">'
-        f'<tspan fill="#7ee787">jatin@github</tspan><tspan fill="{MUTED}"> ~ </tspan>'
+        f'<tspan fill="#7ee787">manthan@github</tspan><tspan fill="{MUTED}"> ~ </tspan>'
         f'<tspan fill="#7ee787">$</tspan><tspan fill="{FG}"> {escape(cmd)}</tspan></text>'
     )
     if cursor:
@@ -205,7 +205,10 @@ def _portrait(x, y, w, h):
     with open(PORTRAIT, "rb") as f:
         raw = f.read()
     b64 = base64.b64encode(raw).decode()
-    iw, ih = int.from_bytes(raw[16:20], "big"), int.from_bytes(raw[20:24], "big")
+    if raw.startswith(b"\x89PNG\r\n\x1a\n") and len(raw) >= 24:
+        iw, ih = int.from_bytes(raw[16:20], "big"), int.from_bytes(raw[20:24], "big")
+    else:
+        iw, ih = 720, 864
     pw = w - 24
     ph = round(pw * ih / iw)
     ix, iy = x + 12, y + 12
@@ -227,13 +230,13 @@ def _portrait(x, y, w, h):
         f'<rect x="{ix}" y="{iy - 1}" width="{pw}" height="2" fill="#39d353" filter="url(#glow)">'
         f'<animate attributeName="y" values="{scan_y}" keyTimes="{keys}" dur="{T}s" repeatCount="indefinite"/></rect></g>'
         f"</g>"
-        f'<text x="{x + w / 2}" y="{y + box_h - 11}" text-anchor="middle" font-family="{MONO}" font-size="9" fill="{DIM}">image -&gt; ascii  .  jatin.png</text>'
+        f'<text x="{x + w / 2}" y="{y + box_h - 11}" text-anchor="middle" font-family="{MONO}" font-size="9" fill="{DIM}">image -&gt; ascii  .  manthan.png</text>'
     )
     return svg, box_h, (ix, iy, pw, ph)
 
 
 # ------------------------------------------------------------------ card
-def profile_svg(days, total, user="Jatin-Purbia", year=None, streak_days=None):
+def profile_svg(days, total, user="manthannayaks", year=None, streak_days=None):
     W = 880
     period = str(year) if year else "the last year"
     (_, _, _), (best_n, best_s, best_e) = streak_info(days)
@@ -284,7 +287,7 @@ def profile_svg(days, total, user="Jatin-Purbia", year=None, streak_days=None):
     H = p3 + 22
     sec3 = _prompt(p3, "", cursor=True)
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Terminal-style profile: {total} contributions in {period}, streaks and an ASCII portrait of Jatin">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Terminal-style profile: {total} contributions in {period}, streaks and an ASCII portrait of Manthan">
   <title>{escape(user)} - README.md</title>
   <defs>
     <clipPath id="card"><rect width="{W}" height="{H}" rx="10"/></clipPath>

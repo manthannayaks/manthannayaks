@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Generate assets/heatmap.svg and assets/stats.svg from public GitHub data.
+"""Generate assets/profile.svg from public GitHub data.
 
 No personal access token is needed: the contribution calendar comes from the
 public contributions fragment, and repo/follower counts from the public API.
-If anything fails, the existing SVGs are left untouched.
+If anything fails, the existing SVG is left untouched.
 """
 import datetime as dt
 import os
@@ -211,10 +211,6 @@ def main():
     current, longest = streaks(days)
     stars = sum(r.get("stargazers_count", 0) for r in repos if not r.get("fork"))
     os.makedirs(OUT, exist_ok=True)
-    with open(os.path.join(OUT, "heatmap.svg"), "w", encoding="utf-8") as f:
-        f.write(heatmap_svg(days, total))
-    with open(os.path.join(OUT, "stats.svg"), "w", encoding="utf-8") as f:
-        f.write(stats_svg(total, current, longest, user.get("public_repos", 0), user.get("followers", 0), stars))
     with open(os.path.join(OUT, "profile.svg"), "w", encoding="utf-8") as f:
         f.write(profile_card.profile_svg(year_days, sum(c for _, c, _ in year_days), USER, year=year, streak_days=days))
     print(f"ok: total={total} current={current} longest={longest} repos={user.get('public_repos')} followers={user.get('followers')} stars={stars}")
