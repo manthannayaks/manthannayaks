@@ -25,10 +25,11 @@
 |---|---|
 | **Koda** | A coding platform with a structured DSA roadmap, learning paths, ratings, and leaderboard features. |
 | **VisionTrack AI** | A computer-vision project exploring person retrieval and visual-attribute matching in CCTV footage. |
-| **HAUNTED FRAME** | A story-driven 3D psychological horror / life-simulation game concept built with Godot. |
 | **ParentCare360** | A remote elder-care management system concept focused on connected care and monitoring. |
+| **Mess Rebate Management System** | A web-based platform for managing mess rebate applications, automating student requests, and streamlining administrative approvals. |
+| **Image Segmentation** | A computer vision project focused on pixel-level image classification and segmentation for accurate object and region identification. |
+| **SQORA** | A database-focused platform for writing, executing, and managing SQL queries through an intuitive interface. |
 
-> Project repository links can be added when the corresponding repositories are public.
 
 ## `$ cat tech-stack.txt`
 
@@ -57,7 +58,7 @@
 
 <p align="center">
   <a href="https://github.com/manthannayaks"><img src="https://img.shields.io/badge/GitHub-manthannayaks-0d1117?style=for-the-badge&logo=github&logoColor=39d353" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=39d353" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/manthan-nayak-s/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=39d353" alt="LinkedIn"/></a>
 </p>
 
 <p align="center">
